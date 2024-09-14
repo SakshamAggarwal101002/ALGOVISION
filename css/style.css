@@ -1,0 +1,242 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+nav {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+  padding: 20px 5%;
+  border-bottom: 4px solid #ff6f61;
+}
+
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+nav .array-inputs p, nav .array-inputs input, nav .array-inputs button {
+  margin: 0;
+}
+
+nav .array-inputs input[type="range"] {
+  width: 100%;
+}
+
+nav .array-inputs #a_generate {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav .array-inputs #a_generate:hover {
+  background-color: #e55d50;
+}
+
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+nav .header_right .nav-heading {
+  font-size: 2.5em;
+  padding: 20px 0;
+  color: #ff6f61;
+}
+
+nav .header_right .algos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+nav .header_right .algos button {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav .header_right .algos button:hover {
+  background-color: #e55d50;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: #ff6f61;
+  border: 2px solid #ff6f61;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: #e55d50;
+  color: white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section #Info_Cont1, section #Info_Cont2 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+section #Info_Cont1 h3, section #Info_Cont2 h3 {
+  color: #ff6f61;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+section #array_container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pair_Definitions {
+  margin-bottom: 10px;
+}
+
+.Sub_Heading {
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.hide {
+  display: none;
+}
+header {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 20px 5%;
+  border-bottom: 4px solid #ff6f61;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.nav-heading {
+  font-size: 2.5em;
+  color: #ff6f61;
+  text-align: left;
+}
+
+.array-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 2;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input[type="range"] {
+  width: 100%;
+}
+
+#myButton {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#myButton:hover {
+  background-color: #e55d50;
+}
+
+.algos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 3;
+}
+
+.algos button {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.algos button:hover {
+  background-color: #e55d50;
+}
+
+.algos .butt_selected {
+  background-color: white;
+  color: #ff6f61;
+  border: 2px solid #ff6f61;
+}
+
+.algos .butt_selected:hover {
+  background-color: #e55d50;
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+}
